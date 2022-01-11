@@ -193,7 +193,6 @@ article#article_6 a:hover {
     text-decoration: none;
     color: var(--verde_4);
     font-weight: bold;
-    transition-duration: .2s;
 }
 
 footer {
@@ -210,11 +209,11 @@ footer > p {
 @media screen and (max-width:800px) {
     .container {display: block;}
     article#article_2 p {
-        margin: 70px 0px 0px 0px;
+        margin: 20px 0px 0px 0px;
     }
     div#img1 {
-        max-width: 500px;
-        max-height: 450px;
+        max-width: 400px;
+        max-height: 500px;
         margin: auto;
         text-align: center;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.363);
@@ -250,7 +249,6 @@ footer > p {
     article#article_6 div {
         margin: auto;
         text-align: center;
-        transition-duration: .2s;
     }
 }
 
