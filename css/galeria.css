@@ -29,7 +29,6 @@ p {
     text-align: justify;
     line-height: 2em;
     font-size: 1.3em;
-    text-indent: 50px;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.404);
 }
 
@@ -106,13 +105,13 @@ article > div > h1 {
     font-weight: normal;
     font-size: 5em;
     text-align: center;
-    color: var(--verde_1);
+    color: var(--verde_2);
 }
 
 article > div > h2 {
     font-family: 'gh';
     font-weight: normal;
-    color: var(--verde_1);
+    color: var(--verde_2);
     text-align: center;
     font-size: 2.5em;
 }

@@ -56,6 +56,7 @@ header > p {
     font-weight: normal;
     color: white;
     font-size: 18px;
+    text-indent: 0px;
 }
 
 nav {
@@ -204,6 +205,7 @@ footer {
 footer > p {
     text-align: center;
     color: white;
+    text-indent: 0px;
 } 
 
 @media screen and (max-width:800px) {
