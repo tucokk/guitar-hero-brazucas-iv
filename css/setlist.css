@@ -146,6 +146,27 @@ article#article1 a:hover {
     margin-left: 0px;
 }
 
+#divtwitter img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-top: 20px;
+}
+
+#divtwitter p {
+    margin-top: 25px;
+    text-indent: 15px;
+}
+
+#divtwitter a {
+    text-decoration: underline;
+    color: var(--verde_2);
+    font-weight: bold;
+}
+
+#divtwitter a:hover {
+    text-decoration: underline;
+    color: var(--verde_3);
+}
 footer {
     background-color: var(--verde_1);
     padding: 0.1em;

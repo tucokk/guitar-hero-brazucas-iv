@@ -134,6 +134,30 @@ article#article1 a:hover {
     color: var(--verde_3);
 }
 
+article#article_7 img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-top: 20px;
+}
+
+article#article_7 p {
+    margin-top: 25px;
+    text-indent: 15px;
+}
+
+article#article_7 a {
+    text-decoration: underline;
+    color: var(--verde_2);
+    font-weight: bold;
+}
+
+article#article_7 a:hover {
+    text-decoration: underline;
+    color: var(--verde_3);
+}
+.container {
+    display: flex;
+}
 .paragrafofinal {
     color: black;
     letter-spacing: none;
