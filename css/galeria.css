@@ -111,7 +111,7 @@ article > div > h1 {
 article > div > h2 {
     font-family: 'gh';
     font-weight: normal;
-    color: var(--verde_1);
+    color: var(--verde_2);
     text-align: center;
     font-size: 2.5em;
 }

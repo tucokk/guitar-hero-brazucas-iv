@@ -126,7 +126,7 @@ article#article1 ol, p {
 
 article#article1 a {
     text-decoration: underline;
-    color: var(--verde_1);
+    color: var(--verde_3);
 }
 
 article#article1 a:hover {
