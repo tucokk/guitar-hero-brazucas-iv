@@ -99,11 +99,9 @@ main strong {
 
 article#article1 {
     margin: auto;
-    background-color: var(--verde_4);
     max-width: 500px;
     padding: 5px 40px 40px 40px;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.295);
 }
 
 article#article1 > h1 {
