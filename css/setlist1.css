@@ -168,6 +168,17 @@ article#article_7 a:hover {
     margin-left: 0px;
 }
 
+article#article_7 img {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+article#article_7 p {
+    color: black;
+    font-weight: normal;
+    margin: 0px;
+    margin-top: 10px;
+}
 footer {
     background-color: var(--verde_1);
     padding: 0.1em;
@@ -179,5 +190,24 @@ footer > p {
     color: white;
     text-indent: 0px;
 } 
+
+@media screen and (max-width:800px) {
+    article#article_7 {
+        margin-top: 50px;
+        text-align: center;
+        display: block;
+    }
+    article#article_7 p {
+        text-align: center;
+        text-indent: 0px;
+        color: black;
+        font-weight: normal;
+        margin: 10px;
+        font-size: 1.2em;
+    }
+    .container {
+        display: block;
+    }
+}
 
 

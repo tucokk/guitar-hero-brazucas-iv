@@ -193,10 +193,22 @@ div#divtwitter a {
 div#divtwitter a:hover {
     text-decoration: underline;
     color: var(--verde_3);
+}
 
 @media screen and (max-width:800px) {
     div#img > img {
         max-width: 400px;
         height: 280px;
+    }
+    article#article_2 {
+        margin-top: 50px;
+        text-align: center;
+        display: block;
+    }
+    article#article_2 p {
+        text-align: center;
+    }
+    .container {
+        display: block;
     }
 }
