@@ -208,6 +208,10 @@ footer > p {
     text-indent: 0px;
 } 
 
+article#article_7 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
 article#article_7 img {
     max-width: 50px;
     max-height: 50px;
