@@ -56,6 +56,7 @@ header > p {
     font-weight: normal;
     color: white;
     font-size: 18px;
+    text-indent: 0px;
 }
 
 nav {
@@ -100,4 +101,189 @@ main strong {
 
 .container {
     display: flex;
+}
+
+article#article_1 > h1{
+    text-align: center;
+    font-family: 'gh';
+    font-weight: normal;
+    font-size: 4em;
+    color: var(--verde_2);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.452);
+}
+
+article#article_1 img {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.377);
+    margin-bottom: 30px;
+}
+
+p#paragrafo1 {
+    margin: 70px 30px 0px 30px;
+}
+
+article#article_1 > h2{
+    font-family: 'gh';
+    font-weight: normal;
+    text-align: center;
+    font-size: 3.5em;
+    color: var(--verde_2);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.452);
+}
+
+div#termos {
+    margin: auto;
+    max-width: 600px;
+}
+article#article_1 > div > ol {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+article#article_1 ul {
+    margin-left: 30px;
+}
+
+div#termos a {
+    text-decoration: underline;
+    color: var(--verde_1);
+    font-weight: bold;
+}
+
+div#termos a:hover {
+    text-decoration: underline;
+    color: var(--verde_3);
+    font-weight: bold;
+}
+
+article#article_2 h1 {
+    text-align: center;
+    font-family: 'gh';
+    font-weight: normal;
+    font-size: 4em;
+    color: var(--verde_2);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.452);
+    margin-top: 40px;
+}
+#div1 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+#div1 > a {
+    margin: auto;
+    background-color: var(--verde_1);
+    padding: 30px;
+    width: 200px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+#div1 > a:hover {
+    margin: auto;
+    background-color: var(--verde_2);
+    padding: 30px;
+    width: 200px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+#div2 > p {
+    margin: auto;
+    font-size: 1.1em;
+    margin-top: 10px;
+    text-shadow: none;
+    line-height: 0em;
+    margin-bottom: 100px;
+
+}
+
+article#article_7 {
+    margin-top: 120px;
+}
+article#article_7 img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-top: 20px;
+}
+
+article#article_7 p {
+    margin-top: 25px;
+    text-indent: 15px;
+}
+
+article#article_7 a {
+    text-decoration: underline;
+    color: var(--verde_2);
+    font-weight: bold;
+}
+
+article#article_7 a:hover {
+    text-decoration: underline;
+    color: var(--verde_3);
+}
+
+footer {
+    background-color: var(--verde_1);
+    padding: 0.1em;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.459);
+}
+
+footer > p {
+    text-align: center;
+    color: white;
+    text-indent: 0px;
+} 
+
+@media screen and (max-width:800px) {
+    .container {
+        display: block;
+        text-align: center;
+    }
+    .div1 {
+        display: block;
+    }
+    div#img1 {
+        max-width: 400px;
+        max-height: 500px;
+        margin: auto;
+        text-align: center;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.363);
+    }
+    p#paragrafo1 {
+        text-indent: 0px;
+        margin-top: 0px;
+        text-align: justify;
+    }
+    #d1, #d2 {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 100px white;
+    }
+    #div2 > p {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 1.1em;
+        margin-top: 10px;
+        text-shadow: none;
+        line-height: 0em;
+        margin-bottom: 0px;
+        color: white;
+    
+    }
+    article#article_7 {
+        margin-top: 50px;
+    }
+    article#article_7 p {
+        text-align: center;
+    }
 }
